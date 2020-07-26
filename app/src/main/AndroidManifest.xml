@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flashcard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Polytics_Activity"></activity>
+        <activity android:name=".History_Activity" />
+        <activity android:name=".Arts_Activity" />
+        <activity android:name=".DNA_Activity" />
+        <activity android:name=".What_bio_Activity" />
+        <activity android:name=".Bio_Activity" />
+        <activity android:name=".Synonyms_Activity" />
+        <activity android:name=".Antonyms_Activity" />
+        <activity android:name=".English_Activity" />
+        <activity android:name=".Trigo_Activity" />
+        <activity android:name=".What_math_Activity" />
+        <activity android:name=".Maths_Activity" />
+        <activity android:name=".Atom_Activity" />
+        <activity android:name=".What_chem_Activity" />
+        <activity android:name=".Chemistry_Activity" />
+        <activity android:name=".Gravitation_Activity" />
+        <activity android:name=".Alternating_Activity" />
+        <activity android:name=".Magnetism_Activity" />
+        <activity android:name=".Current_Activity" />
+        <activity android:name=".What_physics_Activity" />
+        <activity android:name=".Physics_Activity" />
+        <activity android:name=".Options_Activity" />
+        <activity android:name=".Login_signup_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

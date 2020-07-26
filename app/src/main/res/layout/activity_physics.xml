@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Physics_Activity"
+    android:background="#000000"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHYSICS"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WHAT IS PHYSICS?"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:background="#CEC1"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURRENT ELECTRICITY"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:background="#CEC1"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magnetism"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:background="#CEC1"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALTERNATING CURRENT"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:background="#CEC1"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GRAVITATION"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:background="#CEC1"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
